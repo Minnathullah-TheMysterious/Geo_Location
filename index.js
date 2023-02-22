@@ -31,19 +31,19 @@ showPosition = (data) => {
 
     output.innerHTML =
       output.innerHTML +
-      `Weather of ${cityName} is ${cityWeatherMain} (${cityWeatherDescrition})` +
+      `Weather of ${cityName} is "${cityWeatherMain}" (${cityWeatherDescrition})` +
       "<br>";
     output.innerHTML =
       output.innerHTML +
-      `Population of ${cityName} is ${cityPopulation}` +
+      `Population of ${cityName}:-- ${cityPopulation}` +
       "<br>";
     output.innerHTML =
       output.innerHTML +
-      `Day Temperature of ${cityName}:- ${cityDayTemp} °C but it feels_like ${cityDayTempFeelsLike} °C` +
+      `Day Temperature of ${cityName}:-- ${cityDayTemp} °C but it feels_like ${cityDayTempFeelsLike} °C` +
       "<br>";
     output.innerHTML =
       output.innerHTML +
-      `Night Temperature of ${cityName}:- ${cityNightTemp} °C but it feels_like ${cityNightTempFeelsLike} °C` +
+      `Night Temperature of ${cityName}:-- ${cityNightTemp} °C but it feels_like ${cityNightTempFeelsLike} °C` +
       "<br>";
   });
 };
